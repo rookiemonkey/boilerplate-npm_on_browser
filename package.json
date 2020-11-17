@@ -1,0 +1,17 @@
+{
+  "name": "npm_on_browser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rookiemonkey/boilerplate-npm_on_browser.git",
+  "author": "rookiemonkey <kevinroirigorbasina@pm.me>",
+  "license": "MIT",
+  "scripts": {
+    "browserify": "browserify ./assets/main.js -o ./assets/bundle.js"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0"
+  },
+  "dependencies": {
+    "buffer": "^6.0.2"
+  }
+}
